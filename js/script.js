@@ -98,4 +98,18 @@ const recommendationsData = {
     ]
  }
 
+ function showRecommendations(recommendationsDivId){
+     // recommendations div id passed in as string
+     let recommendationsElement = $(recommendationsDivId);
+     console.log(recommendationsElement);
+    let recommendationsArray = recommendationsData['hits'];
+
+    for(let recommendationNumber = 0; recommendationNumber < 5; recommendationNumber++){
+        recommendationsElement.append(recommendationsArray[recommendationNumber].product_name);
+
+    }
+ }
  
+ $(document).ready(function(){
+     showRecommendations("#recommendations");
+ });
