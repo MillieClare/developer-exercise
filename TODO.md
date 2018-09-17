@@ -1,9 +1,8 @@
 # To do for Developer Exercise
 
-
 - add css styling to elements
 - test with different devices
-- internationalisation: currencies and locales
+
 
 # Done
 
@@ -12,3 +11,4 @@
 - javascript: take a section of the json file for testing, add it directly to script
 - create a function that adds elements to the #recommendations div from the json, via a loop
 - move away from json in file to making a call to download the json, and run a webserver locally to test
+- internationalisation: currencies and locales (can't work out how to detect locale in browser so assuming en-uk)
