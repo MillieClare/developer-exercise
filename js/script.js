@@ -105,8 +105,8 @@ const recommendationsData = {
     let recommendationsArray = recommendationsData['hits'];
 
     for(let recommendationNumber = 0; recommendationNumber < 5; recommendationNumber++){
-        recommendationsElement.append(recommendationsArray[recommendationNumber].product_name);
-
+        recommendationsElement.append(`<div class="col-sm">${recommendationsArray[recommendationNumber].product_name}</div>`);
+//
     }
  }
  
