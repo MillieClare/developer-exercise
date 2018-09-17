@@ -17,7 +17,7 @@ function showRecommendations(recommendationsDivId, recommendationsData, maxRecom
     content += '<div class="row">';
     for (let recommendation of recommendationsArray) {
         content += '<div class="col-sm">' +
-            `<img src=${recommendation.image.link} class="img-fluid" alt=${recommendation.image.alt}>` +
+            `<a href=${recommendation.link}><img src=${recommendation.image.link} class="img-fluid" alt=${recommendation.image.alt}></a>` +
             `<div class="product_name">${recommendation.product_name}</div>` +
             `<div class="price">${recommendation.price}</div>` +
             '</div>';
