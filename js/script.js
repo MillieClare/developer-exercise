@@ -9,7 +9,7 @@ function showRecommendations(recommendationsDivId, recommendationsData, maxRecom
     // heading for recommendation section
     content += '<div class="row">';
     content += '<div class="col-sm">';
-    content += '<div class="recommendations_heading">If you like this, you might be into these</div>';
+    content += '<div class="recommendations-heading">If you like this, you might be into these</div>';
     content += '<div class="horizontal_break"><hr></div>';
     content += '</div></div>';
 
@@ -17,8 +17,8 @@ function showRecommendations(recommendationsDivId, recommendationsData, maxRecom
     content += '<div class="row">';
     for (let recommendation of recommendationsArray) {
         content += '<div class="col-sm">' +
-            `<a href=${recommendation.link}><img src=${recommendation.image.link} class="img-fluid" alt=${recommendation.image.alt}></a>` +
-            `<div class="product_name">${recommendation.product_name}</div>` +
+            `<a href=${recommendation.link}><img src=${recommendation.image.link} class="img-fluid product-image" alt=${recommendation.image.alt}></a>` +
+            `<div class="product-name">${recommendation.product_name}</div>` +
             `<div class="price">${new Intl.NumberFormat('en-GB', { style: 'currency', currency: recommendation.currency }).format(recommendation.price)}</div>` +
             '</div>';
     }
