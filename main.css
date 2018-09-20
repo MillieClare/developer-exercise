@@ -18,6 +18,11 @@ body {
     letter-spacing: -0.5px;
 }
 
+a:hover {
+    text-decoration: none;
+    color: black;
+  }
+
 .product-image:hover {
     opacity: 0.7;
 }
@@ -46,4 +51,18 @@ body {
 
 .container hr {
     border-top: 1px solid #C0C0C0;    
+}
+
+/*
+https://github.com/kenwheeler/slick/issues/2651
+Fix for touch vs click bug
+*/
+.slick-dots li button:focus:before {
+    opacity: 0.25;
+}
+
+
+.slick-dots li.slick-active button:focus:before {
+    opacity: .75;
+    color: #000;
 }

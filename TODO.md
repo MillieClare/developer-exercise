@@ -1,10 +1,5 @@
 # To do for Developer Exercise
-
-- add css styling to elements
-- test with different devices
-
-
-
+- Finished! Ta da!
 
 # Done
 
@@ -14,8 +9,8 @@
 - create a function that adds elements to the #recommendations div from the json, via a loop
 - move away from json in file to making a call to download the json, and run a webserver locally to test
 - internationalisation: currencies and locales 
-
-## To do for CSS
+- add css styling to elements
+- test with different devices
 - Find similar main font and similar web-safe alternatives
 - Match font styling to example 
 - Change element colours to match example
