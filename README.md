@@ -2,7 +2,10 @@
 
 ## Usage
 ```
-showRecommendations(<target id>, <json file to load>, <number of recommendations to show at once>, <max number of recommendations to use from json>)
+showRecommendations(<target id>, 
+                    <json file to load>, 
+                    <number of recommendations to show at once>, 
+                    <max number of recommendations to use from json>)
 ```
 
 Inserts HTML elements for a recommendation view at the target id, by making an AJAX request to download a recommendations JSON file. The number of recommendation cards visible is controlled by the third parameter, while the final parameter indicates the maximum number of cards. Cards not currently visible are made accessible via a carousel control.  
@@ -37,9 +40,9 @@ Bootstrap, jQuery, Slick for layout, DOM manipulation and AJAX requests, and car
 - Accessibility options: alt text on images, and font-size as small for better magnification options
 
 ## Testing
-- Tested in Firefox, Safari and ![Chrome](developer-exercise/images/recommendations_display.jpg) browsers
+- Tested in Firefox, Safari and ![Chrome](images/recommendations_display.jpg) browsers
 - Tested locally using npm http-server and remotely via github.io
-- Used ![Device Toolbar](developer-exercise/images/recommendations_display_iphone.jpg) to test responsiveness. 
+- Used ![Device Toolbar](images/recommendations_display_iphone.jpg) to test responsiveness. 
 - Separately check on iPhone 8 Plus, iPhone 8, iPhone 7 Plus, iPhone X, the OnePlus 5, Samsung Galaxy S7 and the Samsung Galaxy A3.
 
 ## Issues
