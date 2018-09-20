@@ -1,5 +1,7 @@
 # Warehouse Web Developer Exercise
 
+![Example](images/recommendations_display.jpg)
+
 ## Usage
 ```
 showRecommendations(<target id>, 
@@ -40,9 +42,9 @@ Bootstrap, jQuery, Slick for layout, DOM manipulation and AJAX requests, and car
 - Accessibility options: alt text on images, and font-size as small for better magnification options
 
 ## Testing
-- Tested in Firefox, Safari and ![Chrome](images/recommendations_display.jpg) browsers
+- Tested in Firefox, Safari and [Chrome](images/recommendations_display.jpg) browsers
 - Tested locally using npm http-server and remotely via github.io
-- Used ![Device Toolbar](images/recommendations_display_iphone.jpg) to test responsiveness. 
+- Used [Device Toolbar](images/recommendations_display_iphone.jpg) to test responsiveness. 
 - Separately check on iPhone 8 Plus, iPhone 8, iPhone 7 Plus, iPhone X, the OnePlus 5, Samsung Galaxy S7 and the Samsung Galaxy A3.
 
 ## Issues
