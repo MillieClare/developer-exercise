@@ -26,10 +26,10 @@ Live [example](https://millieclare.github.io/developer-exercise/).
 
 ## Technical Choices
 ### Libraries
-Bootstrap, jQuery, Slick for layout, DOM manipulation and AJAX requests, and carousel of recommendation cards
+[Bootstrap 4.1.3](http://getbootstrap.com/), [jQuery 3.3.1](https://jquery.com/), [Slick 1.8.0](http://kenwheeler.github.io/slick/) for layout, DOM manipulation and AJAX requests, and carousel of recommendation cards
 
 ## Implementation Notes
-- Uses the ES6 Intl class to display currency appropriately for the browser locale
+- Uses the [ES6 Intl object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) to display currency appropriately for the browser locale
 - Filters out products that don't have an image property, since it's not clear what should be displayed in these cases
 
 ```JavaScript
